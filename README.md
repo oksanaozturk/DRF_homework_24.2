@@ -62,6 +62,9 @@ python manage.py migrate
 
 python -Xutf8 manage.py dumpdata materials -o data_materials.json
 python -Xutf8 manage.py dumpdata users -o data_users.json  
+python -Xutf8 manage.py dumpdata -o data.json # Весь проект в целом сохраняет
+python -Xutf8 manage.py dumpdata auth.group -o data_groups.json # Сохраняет группы из админки
+
 
 8) Настраиваем фильтры. Для этого заходим на сайт https://www.django-rest-framework.org/, 
 выбираем там в APIGuide раздел filtering
