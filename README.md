@@ -72,7 +72,7 @@ python -Xutf8 manage.py dumpdata auth.group -o data_groups.json # Сохраня
 устанавливаем django-filter: pip install django-filter
 
 !!! заносим в requirements.txt 
-+ прописываем её в config/settings.py в INSTALLED_APPS как django-filters (с s  на конце)!!!
++ прописываем её в config/settings.py в INSTALLED_APPS как django_filters (с s  на конце)!!!
 
 + Добавление настроек REST_FRAMEWORK в config/settings.py
 
